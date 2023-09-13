@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Final and Midterm Makeup Exam 2023</title>
+    <link rel="stylesheet" type="text/css" href="edit.css"  />
+    <link
+      rel="stylesheet"
+      href="//stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+      integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+      crossorigin="anonymous"
+    />
+    <style>
+      .panel {
+        min-height: 390px;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.6/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.6/js/jquery.dataTables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+      src="//stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZh3w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Midterm Exam</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>
+          Welcome to Final and Midterm Makeup Exam at course Introduction to Web
+          Programming
+        </h1>
+        <p>
+          This is skeleton project to save you time on exam. You have to
+          populate missing snippet codes to make this project functional
+        </p>
+
+        <h3>
+          Following parts should be completed after complemetition of all exams
+          that you are going to submit
+        </h3>
+        <ul>
+          <li>
+            1. Make github repository (name it using your first name and last
+            name.). Make it PRIVATE. Add DzelilaMehanovic as collaborator.
+          </li>
+          <li>
+            2. Push your code to github (do not upload files)
+          </li>
+          <li>
+            3. Zip your code and upload to LMS quiz assignment.
+          </li>
+        </ul>
+        <h3>Following parts should be completed for MIDTERM MAKEUP</h3>
+        <ul>
+          <li>
+            1. Create midterm-exam database with one table named locations
+          </li>
+          <li>
+            2. Connection to MySQL database in rest/dao/BaseDao.php file per
+            TODO instructions in the file
+          </li>
+          <li>
+            3. REST endpoint rest/midterm/connection-check in
+            rest/routes/MidtermRoutes.php file per TODO instructions in the file
+            (optional and not graded)
+          </li>
+          <li>
+            4. REST endpoint rest/midterm/input_data in
+            rest/routes/MidtermRoutes.php file per TODO instructions in the file
+          </li>
+          <li>
+            5. REST endpoint rest/midterm/summary/@country in
+            rest/routes/MidtermRoutes.php file per TODO instructions in the file
+          </li>
+          <li>
+            6. REST endpoint rest/midterm/encoded in
+            rest/routes/MidtermRoutes.php file per TODO instructions in the file
+          </li>
+          <li>
+            7. REST endpoint rest/midterm/ip in rest/routes/MidtermRoutes.php
+            file per TODO instructions in the file
+          </li>
+          <li>
+            8. Service method input_data in rest/services/MidtermService.php
+            file
+          </li>
+          <li>
+            9. Service method summary in rest/services/MidtermService.php file
+          </li>
+          <li>
+            10. Service method encoded in rest/services/MidtermService.php file
+          </li>
+          <li>
+            11. Service method ip in rest/services/MidtermService.php file
+          </li>
+          <li>
+            12. DAO method input_data in rest/dao/MidtermDao.php file
+          </li>
+          <li>
+            13. DAO method summary in rest/dao/MidtermDao.php file
+          </li>
+          <li>
+            14. DAO method encoded in rest/dao/MidtermDao.php file
+          </li>
+          <li>
+            15. DAO method ip in rest/dao/MidtermDao.php file
+          </li>
+        </ul>
+
+        <h3>Following parts should be completed for FINAL</h3>
+        <ul>
+          <li>
+            1. Implement TODO #1 in index.html
+          </li>
+          <li>
+            2. Implement TODO #2 in index.html
+          </li>
+          <li>
+            3. Implement TODO #3 in index.html
+          </li>
+          <li>
+            4. Implement TODO #4 in index.html
+          </li>
+        </ul>
+      </div>
+      <div></div>
+    </div>
+    
+    <div class="form-group">
+      <label for="country">Countries:</label>
+
+      <select
+        name="countries_id"
+        id="countries_id"
+        class="form-control"
+      >
+      </select>
+    </div>
+
+    <select id="country-dropdown">
+      <option value="">Select a Country</option>
+      <!-- Add options for each country here -->
+  </select>
+  <div id="table-container"></div>
+  
+  </div>
+
+
+  </body>
+
+  <script>
+    /*TODO #1
+     * Load content from IP2LOCATION.json file
+     * 10 points
+     */
+     $.getJSON("IP2LOCATION.json", function(json) {
+    console.log(json); 
+    });
+
+    /*TODO #2
+     * Create select dropdown and load unique countries from file within it
+     * -> unique means that one country appears only once
+     * You can use select2 library if you want
+     * 30 points
+     */
+
+    
+
+
+
+
+$.getJSON("IP2LOCATION.json", function(data) {
+    var countries = [];
+
+    for (var i = 0; i < data.length; i++) {
+        var country = data[i].Country;
+        countries.push((country));
+    }
+
+    // Populate the select2 dropdown inside the callback
+    $('#countries_id').select2();
+    var countriesDropdown = $('#countries_id');
+    countriesDropdown.empty();
+
+    $.each(countries, function(index, value) {
+        countriesDropdown.append($("<option />").val(value).text(value));
+    });
+});
+
+
+    /*TODO #3
+     * Use jQuery Datatable library to create HTML table with id = locations
+     * This table will list only unique cities from the country selected in select dropdown:
+     * together with total number of occurrences of that city available in file
+     * -> unique means that one country appears only once
+     * 30 points
+     */
+
+     $.getJSON('IP2LOCATION.json', function (data) {
+    // Create a reference to the table
+    var table = $('<table>').attr('id', 'locations').addClass('table table-striped');
+    var thead = $('<thead>').appendTo(table);
+    var tbody = $('<tbody>').appendTo(table);
+
+    var headers = ['Country', 'Total Cities'];
+    var headerRow = $('<tr>').appendTo(thead);
+
+    for (var i = 0; i < headers.length; i++) {
+        $('<th>').text(headers[i]).appendTo(headerRow);
+    }
+
+    // Function to populate the table with data
+    function populateTable(selectedCountry) {
+        tbody.empty(); // Clear the table body
+        for (var i = 0; i < data.length; i++) {
+            var country = data[i].Country;
+            var cities = data[i].City.length;
+
+            // Check if the selectedCountry matches the current country
+            if (!selectedCountry || selectedCountry === country) {
+                var row = $('<tr>').appendTo(tbody);
+                $('<td>').text(country).appendTo(row);
+                $('<td>').text(cities).appendTo(row);
+            }
+        }
+    }
+
+    // Populate the table initially
+    populateTable('');
+
+    // Add an event listener to the country dropdown
+    $('#country-dropdown').on('change', function () {
+        var selectedCountry = $(this).val();
+        populateTable(selectedCountry);
+    });
+
+    // Append the table to the container
+    $('#table-container').append(table);
+
+    // Initialize DataTables
+    $('#locations').DataTable();
+});
+
+
+    /*TODO #4
+     * Create pie chart that shows distribution of regions for selected country
+     * Show number of occurrences for each region for selected country
+     * 30 points
+     */
+  </script>
+</html>
